@@ -29,12 +29,12 @@ public class ShowSeasonServlet extends HttpServlet {
 		 if(month>=3 && month<=6)
 			 pw.println("<h1 style='color:red;text-align:center'> Summer Season </h1>");
 		 else if(month>=7 && month<=10)
-			 pw.println("<h1 style='color:yellow;text-align:center'> Rainy Season </h1>");
+			 pw.println("<h1 style='color:Green;text-align:center'> Rainy Season </h1>");
 		 else 
 			 pw.println("<h1 style='color:blue;text-align:center'> Winter Season </h1>");
 		 
 		  //add home  hyperlink
-		 pw.println("<br>  <a href='index.jsp'> home </a>");
+		 pw.println("<br>  <a href='index.jsp'> Go to home </a>");
 		 	 
         //close the stream
 		   pw.close();
