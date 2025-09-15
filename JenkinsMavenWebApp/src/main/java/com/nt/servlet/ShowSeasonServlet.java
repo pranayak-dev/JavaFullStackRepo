@@ -34,7 +34,7 @@ public class ShowSeasonServlet extends HttpServlet {
 			 pw.println("<h1 style='color:blue;text-align:center'> Winter Season </h1>");
 		 
 		  //add home  hyperlink
-		 pw.println("<br>  <a href='index.jsp'> Go to home </a>");
+		 pw.println("<br>  <a href='index.jsp'> Go to home Maven Build </a>");
 		 	 
         //close the stream
 		   pw.close();
